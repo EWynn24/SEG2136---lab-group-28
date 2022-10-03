@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="Deprecated,MissingConstraints">
+
+
+
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0_0"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_x="340dp"
+            android:layout_y="325dp"
+
+            tools:ignore="Invalid"
+
+            />
+
+        <Button
+            android:id="@+id/btnClr"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/c"
+            android:layout_x="10dp"
+            android:layout_y="550dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btn0"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/_0"
+            android:layout_x="100dp"
+            android:layout_y="550dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btnDec"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/decimal"
+            android:layout_x="190dp"
+            android:layout_y="550dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/divide"
+            android:layout_x="280dp"
+            android:layout_y="550dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btn7"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/_7"
+            android:layout_x="10dp"
+            android:layout_y="500dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btn8"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/_8"
+            android:layout_x="100dp"
+            android:layout_y="500dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btn9"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/_9"
+            android:layout_x="190dp"
+            android:layout_y="500dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btnMul"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/multiply"
+            android:layout_x="280dp"
+            android:layout_y="500dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/_4"
+            android:layout_x="10dp"
+            android:layout_y="450dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/_5"
+            android:layout_x="100dp"
+            android:layout_y="450dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btn6"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/_6"
+            android:layout_x="190dp"
+            android:layout_y="450dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/minus"
+            android:layout_x="280dp"
+            android:layout_y="450dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btn1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/_1"
+            android:layout_x="10dp"
+            android:layout_y="400dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/_2"
+            android:layout_x="100dp"
+            android:layout_y="400dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/_3"
+            android:layout_x="190dp"
+            android:layout_y="400dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/add"
+            android:layout_x="280dp"
+            android:layout_y="400dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btnEql"
+            android:layout_height="50dp"
+            android:layout_width="358dp"
+            android:text="@string/equals"
+            android:layout_x="10dp"
+            android:layout_y="600dp"
+            tools:ignore="MissingConstraints" />
+
+    </AbsoluteLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
